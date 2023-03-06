@@ -2,6 +2,9 @@ body {
     display: flex;
     flex-direction: column;
 }
+.container{
+    background-color: #1F2937;
+}
 .header {
     display: flex;
     text-decoration: none;
@@ -12,6 +15,7 @@ body {
 }
 .logo {
     margin-left: 500px;
+    color: #F9FAF8;
 }
 .right-links {
     display: flex;
@@ -26,5 +30,20 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #F9FAF8;
 }
-
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 200px;
+}
+.title {
+    font-size: xx-large;
+}
+.title , .content {
+    color: #F9FAF8;
+}
+.content {
+    font-size: small;
+}
