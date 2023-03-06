@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    flex: 1;
 }
 .container{
     background-color: #1F2937;
@@ -40,13 +41,13 @@ a {
 }
 .title {
     font-size: xx-large;
-}
-.title , .content {
     color: #F9FAF8;
 }
+
 .content {
     font-size: small;
     margin-bottom: 15px;
+    color: #F9FAF8;
 }
 button {
     padding: 10px;
@@ -54,3 +55,25 @@ button {
     color: #F9FAF8;
     border-radius: 15%;
 }
+.header2 {
+    color: black;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    
+}
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    
+  }
+  .info {
+    max-width: 200px;
+  }
