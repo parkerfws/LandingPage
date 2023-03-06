@@ -46,4 +46,11 @@ a {
 }
 .content {
     font-size: small;
+    margin-bottom: 15px;
+}
+button {
+    padding: 10px;
+    background-color: rgb(53, 179, 221);
+    color: #F9FAF8;
+    border-radius: 15%;
 }
